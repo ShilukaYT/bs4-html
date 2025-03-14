@@ -72,6 +72,18 @@
         audio.muted = true;
       }
     }
+
+    
+
+    function togglePlayPause() {
+    var video = document.getElementById("LiveWallpaper");
+    if (video.paused) {
+        video.play();
+    } else {
+        video.pause();
+    }
+}
+
   </script>
   <style>
     .devLink {
@@ -149,7 +161,7 @@
 </head>
 
 <body>
-  <video class="background-video" autoplay muted loop>
+  <video id="LiveWallpaper" class="background-video" autoplay muted loop>
   <source src="images/wallpaper.mp4" type="video/mp4">
   </video>
 
@@ -158,23 +170,27 @@
       <div class="flex spaceBetween grow">
         <ul class="navBar flex">
           <li class="margin-right-25">
-            <a aria-current="page" class="bold activeLink link library" href="javascript:void(0)" data-str-id="library"
+            <a aria-current="page" class="bold activeLink link library" href="javascript:void(0)" data-str-id="titleEmu-4.300"
               onclick="handleTabClick('library')"></a>
           </li>
         </ul>
         <div class="flex flexEnd">
-          <div class="reload flex vrtlCenter pointer capitalize tooltip" onclick="refreshhomehtml()"style="top:-10px; right:-170px;">
+          <div class="reload flex vrtlCenter pointer capitalize tooltip" onclick="refreshhomehtml()"style="top:-12px; right:-200px;">
             <img src='images/ReloadIcon.png' />
             <span class="tooltiptext" data-str-id="reload"></span>
           </div>
         </div>
       </div>
       <!-- Add Music button -->
-      <button onclick="addMusic()" class="glow-white-button"data-str-id="addMusic" style = "position:relative;left:20px; right:900px; top:-15px;">Add Music</button>
+      <button onclick="addMusic()" class="glow-white-button"data-str-id="addMusic" style = "position:relative;left:70px; right:990px; top:-15px;">Add Music</button>
+
 
       <!-- Volume controls -->
-      <button onclick="volumeUp()" class="glow-white-button" style = "position:relative; right:210px; top:-15px;">🔉 +</button>
-      <button onclick="volumeDown()" class="glow-white-button" style = "position:relative; right:200px; top:-15px;">🔊 -</button>
+      <button onclick="volumeUp()" class="glow-white-button" style = "position:relative; right:150px; top:-15px;">🔉 +</button>
+      <button onclick="volumeDown()" class="glow-white-button" style = "position:relative; right:140px; top:-15px;">🔊 -</button>
+
+      <button onclick="togglePlayPause()" class="glow-white-button" style = "position:relative; left:10px; top:-15px;" >Play/Pause Video</button>
+
     </div>
     <div class="contentSection">
       <div id="library" class="tab">
@@ -263,9 +279,6 @@
           <p data-str-id="delete"></p>
         </button>
       </div>
-      <video autoplay muted loop>
-        <source src="images/wallpaper.mp4" type="video/mp4">
-      </video>  
     </div>
     <!-- PLAY MUSIC button -->
     <button onclick="toggleMusic()" id="playButton" class="glow-button">PLAY MUSIC 🎶</button>

@@ -1,6 +1,11 @@
 var localize = {
     "en-US": {
-        "library": "BlueStacks - Hieu GL Lite",
+        "titleEmu-4.300": "BlueStacks 4.300 Lite - Hieu GL Lite",
+        "titleEmu-4.300-Google": "BlueStacks 4.300 Lite GG - Hieu GL Lite",
+        "titleEmu-4.300-Google": "",
+        "titleEmu-4.300-Google": "",
+        "titleEmu-4.300-Google": "",
+        "titleEmu-4.300-Google": "",
         "allInstalled": "All Apps",
         "bluestacksApps": "BlueStacks apps",
         "blog": "Blog",
@@ -19,7 +24,12 @@ var localize = {
         "pause": "PAUSE MUSIC"
     },
     "vi-VN": {
-        "library": "BlueStacks - Hiếu GL Lite",
+        "titleEmu-4.300": "BlueStacks 4.300 Lite - Hiếu GL Lite",
+        "titleEmu-44.300-Google": "BlueStacks 4.300 Lite GG - Hiếu GL Lite",
+        "titleEmu-4.300-Google": "",
+        "titleEmu-4.300-Google": "",
+        "titleEmu-4.300-Google": "",
+        "titleEmu-4.300-Google": "",
         "allInstalled": "Tất cả ứng dụng",
         "bluestacksApps": "Các ứng dụng BlueStacks",
         "blog": "Blog",
@@ -39,7 +49,12 @@ var localize = {
         "pause": "TẠM DỪNG NHẠC"
     },
     "th-TH": {
-        "library": "BlueStacks - Hieu GL Lite",
+        "titleEmu-4.300": "BlueStacks 4.300 Lite - Hieu GL Lite",
+        "titleEmu-4.300-Google": "BlueStacks 4.300 Lite GG - Hieu GL Lite",
+        "titleEmu-4.300-Google": "",
+        "titleEmu-4.300-Google": "",
+        "titleEmu-4.300-Google": "",
+        "titleEmu-4.300-Google": "",
         "allInstalled": "All installed",
         "bluestacksApps": "Bluestacks apps",
         "blog": "Blog",
@@ -56,7 +71,12 @@ var localize = {
         "reload": "รีเฟรช"
     },
     "ru-RU": {
-        "library": "BlueStacks - Hieu GL Lite",
+        "titleEmu-4.300": "BlueStacks 4.300 Lite - Hieu GL Lite",
+        "titleEmu-4.300-Google": "BlueStacks 4.300 Lite GG - Hieu GL Lite",
+        "titleEmu-4.300-Google": "",
+        "titleEmu-4.300-Google": "",
+        "titleEmu-4.300-Google": "",
+        "titleEmu-4.300-Google": "",
         "allInstalled": "Установлено",
         "bluestacksApps": "Приложения BlueStacks",
         "blog": "Блог",
