@@ -1,6 +1,6 @@
 var localize = {
     "en-US": {
-        "library": "BlueStacks 4.240.30 Lite - Hieu GL Lite",
+        "library": "BlueStacks - Hieu GL Lite",
         "allInstalled": "All Apps",
         "bluestacksApps": "BlueStacks apps",
         "blog": "Blog",
@@ -19,7 +19,7 @@ var localize = {
         "pause": "PAUSE MUSIC"
     },
     "vi-VN": {
-        "library": "BlueStacks 4.240.30 Lite - Hiếu GL Lite",
+        "library": "BlueStacks - Hiếu GL Lite",
         "allInstalled": "Tất cả ứng dụng",
         "bluestacksApps": "Các ứng dụng BlueStacks",
         "blog": "Blog",
@@ -39,7 +39,7 @@ var localize = {
         "pause": "TẠM DỪNG NHẠC"
     },
     "th-TH": {
-        "library": "BlueStacks 4.240.30 Lite - Hieu GL Lite",
+        "library": "BlueStacks - Hieu GL Lite",
         "allInstalled": "All installed",
         "bluestacksApps": "Bluestacks apps",
         "blog": "Blog",
@@ -56,7 +56,7 @@ var localize = {
         "reload": "รีเฟรช"
     },
     "ru-RU": {
-        "library": "BlueStacks 4.240.30 Lite - Hieu GL Lite",
+        "library": "BlueStacks - Hieu GL Lite",
         "allInstalled": "Установлено",
         "bluestacksApps": "Приложения BlueStacks",
         "blog": "Блог",
