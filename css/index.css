@@ -145,7 +145,7 @@ img {
 }
 
 .Assets.container.library {
-  background-image: url("../images/HieuGLLite.jpg");
+  background-image: url("https://raw.githubusercontent.com/ShilukaYT/bs4-html/main/images/HieuGLLite.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -239,7 +239,7 @@ img {
 }
 
 .stickyScrollHeader {
-  background-image: url("../images/HieuGLLite.jpg");
+  background-image: url("https://raw.githubusercontent.com/ShilukaYT/bs4-html/main/images/HieuGLLite.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
