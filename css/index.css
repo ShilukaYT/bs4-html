@@ -239,7 +239,7 @@ img {
 }
 
 .stickyScrollHeader {
-  /* background-image: url("../images/HieuGLLite.jpg"); */
+  background-image: url("../images/HieuGLLite.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
