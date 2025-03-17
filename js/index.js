@@ -357,7 +357,7 @@ var payload = {
     click_action_app_activity: ".AssetBrowserActivity",
     click_action_app_icon_id: "google_play_20180914_myapps_1",
     click_action_app_icon_url:
-      "https://cdn-bgp.bluestacks.com/myapps/dock_apps/com.android.vending.png",
+      "https://raw.githubusercontent.com/ShilukaYT/bs4-html/main/images/googlePlayStore.png",
     click_action_key: "com.android.vending",
     click_action_packagename: "com.android.vending",
     click_action_title: "Google Play",
@@ -380,21 +380,21 @@ var payload = {
       "org.chromium.chrome.browser.ChromeTabbedActivity",
     click_action_app_icon_id: "com.android.chrome_20180916_more_2",
     click_action_app_icon_url:
-      "https://cdn-bgp.bluestacks.com/myapps/more_apps/com.android.chrome.png",
+      "https://raw.githubusercontent.com/ShilukaYT/bs4-html/main/images/chrome.png",
     click_action_key: "com.android.chrome",
     click_action_packagename: "com.android.chrome",
-    click_action_title: "Browser",
+    click_action_title: "Chrome",
     click_generic_action: "OpenSystemApp",
     payloadtype: "generic"
   },
   android: {
-    click_action_app_activity: ".SettingsActivity",
+    click_action_app_activity: ".Settings",
     click_action_app_icon_id: "com.bluestacks.settings_20180914_more_3",
     click_action_app_icon_url:
-      "https://cdn-bgp.bluestacks.com/myapps/more_apps/com.bluestacks.settings.png",
-    click_action_key: "com.bluestacks.settings",
-    click_action_packagename: "com.bluestacks.settings",
-    click_action_title: "Android Settings",
+      "https://raw.githubusercontent.com/ShilukaYT/bs4-html/main/images/settings.png",
+    click_action_key: "com.android.settings",
+    click_action_packagename: "com.android.settings",
+    click_action_title: "Settings",
     click_generic_action: "OpenSystemApp",
     payloadtype: "generic"
   },
