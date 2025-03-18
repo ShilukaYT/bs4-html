@@ -380,7 +380,7 @@ var payload = {
       "org.chromium.chrome.browser.ChromeTabbedActivity",
     click_action_app_icon_id: "com.android.chrome_20180916_more_2",
     click_action_app_icon_url:
-      "https://cdn-bgp.bluestacks.com/myapps/more_apps/com.android.chrome.png",
+      "https://raw.githubusercontent.com/ShilukaYT/bs4-html/main/appIcon/com.android.chrome.png",
     click_action_key: "com.android.chrome",
     click_action_packagename: "com.android.chrome",
     click_action_title: "Chrome",
