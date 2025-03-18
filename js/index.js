@@ -355,9 +355,9 @@ function hideSystemApps() {
 var payload = {
   playStore: {
     click_action_app_activity: ".AssetBrowserActivity",
-    click_action_app_icon_id: "google_play_20180914_myapps_1",
+    click_action_app_icon_id: "google_play_myapps_1",
     click_action_app_icon_url:
-      "https://cdn-bgp.bluestacks.com/myapps/dock_apps/com.android.vending.png",
+      "https://github.com/ShilukaYT/bs4-html/raw/main/appIcon/com.android.vending.png",
     click_action_key: "com.android.vending",
     click_action_packagename: "com.android.vending",
     click_action_title: "Google Play",
@@ -378,7 +378,7 @@ var payload = {
   chrome: {
     click_action_app_activity:
       "org.chromium.chrome.browser.ChromeTabbedActivity",
-    click_action_app_icon_id: "com.android.chrome_20180916_more_2",
+    click_action_app_icon_id: "com.android.chrome_more_2",
     click_action_app_icon_url:
       "https://raw.githubusercontent.com/ShilukaYT/bs4-html/main/appIcon/com.android.chrome.png",
     click_action_key: "com.android.chrome",
@@ -389,9 +389,9 @@ var payload = {
   },
   android: {
     click_action_app_activity: ".Settings",
-    click_action_app_icon_id: "com.bluestacks.settings_20180914_more_3",
+    click_action_app_icon_id: "com.android.settings_more_3",
     click_action_app_icon_url:
-      "https://cdn-bgp.bluestacks.com/myapps/more_apps/com.bluestacks.settings.png",
+      "https://github.com/ShilukaYT/bs4-html/raw/main/appIcon/com.android.settings.png",
     click_action_key: "com.android.settings",
     click_action_packagename: "com.android.settings",
     click_action_title: "Settings",
@@ -409,7 +409,7 @@ var payload = {
     click_generic_action: "OpenSystemApp",
     payloadtype: "generic"
   },
-  helpCenter: {
+  HieuGLLite: {
     click_action_app_activity: "",
     click_action_app_icon_id: "helpcenter_20180919_more_6",
     click_action_app_icon_url:
@@ -418,7 +418,7 @@ var payload = {
     click_action_packagename: "feedback_text",
     click_action_title: "HelpCenter",
     click_action_value:
-      "http://arabica-dot-bs3-appcenter-engg.appspot.com/bs3/feedback",
+      "https://sites.google.com/view/hieugllite/home?authuser=0",
     click_generic_action: "ApplicationBrowser",
     payloadtype: "generic"
   }
