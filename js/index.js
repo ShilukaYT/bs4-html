@@ -357,7 +357,7 @@ var payload = {
     click_action_app_activity: ".AssetBrowserActivity",
     click_action_app_icon_id: "google_play_20180914_myapps_1",
     click_action_app_icon_url:
-      "https://cdn-bgp.bluestacks.com/myapps/more_apps/com.android.vending.png",
+      "https://cdn-bgp.bluestacks.com/myapps/dock_apps/com.android.vending.png",
     click_action_key: "com.android.vending",
     click_action_packagename: "com.android.vending",
     click_action_title: "Google Play",
@@ -391,7 +391,7 @@ var payload = {
     click_action_app_activity: ".Settings",
     click_action_app_icon_id: "com.bluestacks.settings_20180914_more_3",
     click_action_app_icon_url:
-      "https://cdn-bgp.bluestacks.com/myapps/more_apps/com.android.settings.png",
+      "https://cdn-bgp.bluestacks.com/myapps/more_apps/com.bluestacks.settings.png",
     click_action_key: "com.android.settings",
     click_action_packagename: "com.android.settings",
     click_action_title: "Settings",
