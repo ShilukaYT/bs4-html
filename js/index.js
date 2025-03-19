@@ -398,6 +398,17 @@ var payload = {
     click_generic_action: "OpenSystemApp",
     payloadtype: "generic"
   },
+  zarchiver: {
+    click_action_app_activity: ".ZArchiver",
+    click_action_app_icon_id: "Zarchiver",
+    click_action_app_icon_url:
+      "https://github.com/ShilukaYT/bs4-html/raw/main/images/zarchiver.png",
+    click_action_key: "ru.zdevs.zarchiver",
+    click_action_packagename: "ru.zdevs.zarchiver",
+    click_action_title: "ZArchiver",
+    click_generic_action: "OpenSystemApp",
+    payloadtype: "generic"
+  },
   media: {
     click_action_app_activity: "com.bluestacks.filemanager.MainActivity",
     click_action_app_icon_id: "com.bluestacks.filemanager_20180914_more_4",
