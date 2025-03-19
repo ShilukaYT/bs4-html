@@ -421,13 +421,13 @@ var payload = {
     payloadtype: "generic"
   },
   HieuGLLite: {
-    click_action_app_activity: "",
-    click_action_app_icon_id: "helpcenter_20180919_more_6",
+    click_action_app_activity: ".MainActivity",
+    click_action_app_icon_id: "HieuGLLite",
     click_action_app_icon_url:
-      "https://cdn-bgp.bluestacks.com/myapps/more_apps/help_center.png",
-    click_action_key: "feedback_text",
-    click_action_packagename: "feedback_text",
-    click_action_title: "HelpCenter",
+      "https://github.com/ShilukaYT/bs4-html/raw/main/images/hieuglliteApp.png",
+    click_action_key: "com.hieugllite.website",
+    click_action_packagename: "com.hieugllite.website",
+    click_action_title: "Hieu GL Lite",
     click_action_value:
       "https://sites.google.com/view/hieugllite/home?authuser=0",
     click_generic_action: "ApplicationBrowser",
