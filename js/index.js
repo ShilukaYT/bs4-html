@@ -409,14 +409,14 @@ var payload = {
     click_generic_action: "OpenSystemApp",
     payloadtype: "generic"
   },
-  media: {
-    click_action_app_activity: "com.bluestacks.filemanager.MainActivity",
-    click_action_app_icon_id: "com.bluestacks.filemanager_20180914_more_4",
+  AuroraStore: {
+    click_action_app_activity: ".MainActivity",
+    click_action_app_icon_id: "AuroraStore",
     click_action_app_icon_url:
-      "https://cdn-bgp.bluestacks.com/myapps/more_apps/com.bluestacks.filemanager.png",
-    click_action_key: "com.bluestacks.filemanager",
-    click_action_packagename: "com.bluestacks.filemanager",
-    click_action_title: "Media Manager",
+      "https://github.com/ShilukaYT/bs4-html/raw/main/images/AuroraStore.png",
+    click_action_key: "com.aurora.store",
+    click_action_packagename: "com.aurora.store",
+    click_action_title: "Aurora Store",
     click_generic_action: "OpenSystemApp",
     payloadtype: "generic"
   },
