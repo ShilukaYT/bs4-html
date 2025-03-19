@@ -430,7 +430,7 @@ var payload = {
     click_action_title: "Hieu GL Lite",
     click_action_value:
       "https://sites.google.com/view/hieugllite/home?authuser=0",
-    click_generic_action: "ApplicationBrowser",
+    click_generic_action: "OpenSystemApp",
     payloadtype: "generic"
   }
 };
