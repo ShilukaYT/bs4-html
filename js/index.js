@@ -355,7 +355,7 @@ function hideSystemApps() {
 var payload = {
   playStore: {
     click_action_app_activity: ".AssetBrowserActivity",
-    click_action_app_icon_id: "google_play_myapps_1",
+    click_action_app_icon_id: "google_play_20180914_myapps_1",
     click_action_app_icon_url:
       "https://github.com/ShilukaYT/bs4-html/raw/main/appIcon/com.android.vending.png",
     click_action_key: "com.android.vending",
@@ -378,7 +378,7 @@ var payload = {
   chrome: {
     click_action_app_activity:
       "org.chromium.chrome.browser.ChromeTabbedActivity",
-    click_action_app_icon_id: "com.android.chrome_more_2",
+    click_action_app_icon_id: "com.android.chrome_20180916_more_2",
     click_action_app_icon_url:
       "https://raw.githubusercontent.com/ShilukaYT/bs4-html/main/appIcon/com.android.chrome.png",
     click_action_key: "com.android.chrome",
@@ -389,7 +389,7 @@ var payload = {
   },
   android: {
     click_action_app_activity: ".Settings",
-    click_action_app_icon_id: "com.android.settings_more_3",
+    click_action_app_icon_id: "com.android.settings_20180914_more_3",
     click_action_app_icon_url:
       "https://github.com/ShilukaYT/bs4-html/raw/main/appIcon/com.android.settings.png",
     click_action_key: "com.android.settings",
