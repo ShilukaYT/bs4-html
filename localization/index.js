@@ -21,7 +21,8 @@ var localize = {
         "reload": "Reload",
         "addmusic": "Add Music",
         "play": "PLAY MUSIC",
-        "pause": "PAUSE MUSIC"
+        "pause": "PAUSE MUSIC",
+        "settings": "Settings"
     },
     "vi-VN": {
         "titleEmu-4.300": "BlueStacks 4.300 Lite - Hiếu GL Lite",
@@ -46,7 +47,8 @@ var localize = {
         "reload": "Reload",
         "addmusic": "Thêm nhạc",
         "play": "PHÁT NHẠC",
-        "pause": "TẠM DỪNG NHẠC"
+        "pause": "TẠM DỪNG NHẠC",
+        "settings": "Cài đặt"
     },
     "th-TH": {
         "titleEmu-4.300": "BlueStacks 4.300 Lite - Hieu GL Lite",
