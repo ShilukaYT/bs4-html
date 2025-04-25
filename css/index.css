@@ -134,7 +134,7 @@ img {
   box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.4);
 }
 
-.background-video {
+/* .background-video {
   position: fixed;
   top: 0;
   left: 0;
@@ -142,14 +142,14 @@ img {
   height: 100%;
   object-fit: cover;
   z-index: -1;
-}
+} */
 
-/* .Assets.container.library {
-  background-image: url("https://raw.githubusercontent.com/ShilukaYT/bs4-html/main/images/HieuGLLite.jpg");
+.Assets.container.library {
+  background-image: url("/images/3041975.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-} */
+}
 
 .header {
   margin-bottom: 25px;
