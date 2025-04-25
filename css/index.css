@@ -145,7 +145,7 @@ img {
 } */
 
 .Assets.container.library {
-  background-image: url("/images/3041975.jpg");
+  background-image: url("images/3041975.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
