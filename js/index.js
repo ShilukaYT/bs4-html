@@ -398,6 +398,17 @@ var payload = {
     click_generic_action: "OpenSystemApp",
     payloadtype: "generic"
   },
+  addaccount: {
+    click_action_app_activity: "com.android.settings.accounts.AddAccountSettings",
+    click_action_app_icon_id: "AddAccount",
+    click_action_app_icon_url:
+      "https://github.com/ShilukaYT/bs4-html/raw/main/appIcon/com.android.settings.png",
+    click_action_key: "com.android.settings",
+    click_action_packagename: "com.android.settings",
+    click_action_title: "Settings",
+    click_generic_action: "OpenSystemApp",
+    payloadtype: "generic"
+  },
   zarchiver: {
     click_action_app_activity: ".ZArchiver",
     click_action_app_icon_id: "Zarchiver",
