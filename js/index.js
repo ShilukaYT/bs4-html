@@ -405,7 +405,7 @@ var payload = {
       "https://github.com/ShilukaYT/bs4-html/raw/main/appIcon/com.android.settings.png",
     click_action_key: "com.android.settings",
     click_action_packagename: "com.android.settings",
-    click_action_title: "Settings",
+    click_action_title: "Add account",
     click_generic_action: "OpenSystemApp",
     payloadtype: "generic"
   },
