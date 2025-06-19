@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="css/index.css" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Bluestacks Home</title>
+  <script type="text/javascript">
+    window._arabica = {};
+  </script>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/gmApi.js"></script>
+  <script type="text/javascript" src="js/utils.js"></script>
+  <script type="text/javascript">
+    var module = _arabica.fetchParamFromUrl("module");
+    _arabica.host =
+      GmApi.gmDevUrl() || module || "https://cloud.bluestacks.com";
+  </script>
+  <script type="text/javascript" src="localization/index.js"></script>
+  <script type="text/javascript" src="js/localize.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript">
+    
+    function toggleMusic() {
+      var audio = document.getElementById('bgMusic');
+      var playButton = document.getElementById('playButton');
+      
+      if (audio.paused) {
+        audio.play();
+        playButton.textContent = "PAUSE MUSIC 🔇";
+      } else {
+        audio.pause();
+        playButton.textContent = "PLAY MUSIC 🎶";
+      }
+    }
+
+    function addMusic() {
+      var input = document.createElement('input');
+      input.type = 'file';
+      input.accept = 'audio/mp3';
+      input.onchange = function(event) {
+        var file = event.target.files[0];
+        var audio = document.getElementById('bgMusic');
+        var playButton = document.getElementById('playButton');
+
+        audio.src = URL.createObjectURL(file);
+        audio.play();
+        playButton.textContent = "PAUSE MUSIC 🔇";
+      };
+      input.click();
+    }
+
+    function volumeUp() {
+      var audio = document.getElementById('bgMusic');
+      audio.volume += 0.1;
+    }
+
+    function volumeDown() {
+      var audio = document.getElementById('bgMusic');
+      audio.volume -= 0.1;
+    }
+
+    function toggleMute() {
+      var audio = document.getElementById('bgMusic');
+      if (audio.muted) {
+        audio.muted = false;
+      } else {
+        audio.muted = true;
+      }
+    }
+
+    
+
+    function togglePlayPause() {
+    var video = document.getElementById("LiveWallpaper");
+    if (video.paused) {
+        video.play();
+    } else {
+        video.pause();
+    }
+}
+
+  </script>
+  <style>
+    .devLink {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      font-size: 12px;
+      color: #ffffff;
+    }
+
+    /* Glowing effect */
+    .glow-button {
+      background-color: #ffffff;
+      color: #000000;
+      border: none;
+      padding: 5px 10px;
+      text-align: center;
+      font-size: 14px;
+      cursor: pointer;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.5);
+      animation: glow 1s infinite alternate;
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .glow-button:hover {
+      background-color: #000000;
+      color: #ffffff;
+    }
+
+    .glow-button:active {
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+    }
+
+    /* Glowing effect for white buttons */
+    .glow-white-button {
+      background-color: transparent;
+      color: #ffffff;
+      border: 1px solid #ffffff;
+      padding: 5px 10px;
+      text-align: center;
+      font-size: 14px;
+      cursor: pointer;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.5);
+      animation: glow 1s infinite alternate;
+      position: absolute;
+      top: 10px;
+      right: 120px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .glow-white-button:hover {
+      background-color: #ffffff;
+      color: #000000;
+    }
+
+    .glow-white-button:active {
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+    }
+
+    @keyframes glow {
+      from {
+        box-shadow: 0 0 10px rgba(255,255,255,0.5);
+      }
+      to {
+        box-shadow: 0 0 20px rgba(255,255,255,1);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- <video id="LiveWallpaper" class="background-video" autoplay muted loop>
+  <source src="images/wallpaper.mp4" type="video/mp4">
+  </video> -->
+
+  <div class="container library">
+    <div class="flex header spaceBetween vrtlCenter">
+      <div class="flex spaceBetween grow">
+        <ul class="navBar flex">
+          <li class="margin-right-25">
+            <a aria-current="page" class="bold activeLink link library" href="javascript:void(0)" data-str-id="titleEmu-4.240.20"
+              onclick="handleTabClick('library')"></a>
+          </li>
+        </ul>
+        <div class="flex flexEnd">
+          <div class="reload flex vrtlCenter pointer capitalize tooltip" onclick="refreshhomehtml()"style="top:-12px; right:-200px;">
+            <img src='images/ReloadIcon.png' />
+            <span class="tooltiptext" data-str-id="reload"></span>
+          </div>
+        </div>
+      </div>
+      <!-- Add Music button -->
+      <button onclick="addMusic()" class="glow-white-button"data-str-id="addMusic" style = "position:relative;left:70px; right:990px; top:-15px;">Add Music</button>
+
+
+      <!-- Volume controls -->
+      <button onclick="volumeUp()" class="glow-white-button" style = "position:relative; right:150px; top:-15px;">🔉 +</button>
+      <button onclick="volumeDown()" class="glow-white-button" style = "position:relative; right:140px; top:-15px;">🔊 -</button>
+
+      <!-- <button onclick="togglePlayPause()" class="glow-white-button" style = "position:relative; left:10px; top:-15px;" >Play/Pause Video</button> -->
+
+    </div>
+    <div class="contentSection">
+      <div id="library" class="tab">
+        <div>
+          <div class="flex spaceBetween margin-bottom-20 stickyScrollHeader title">
+            <div class="flex vrtlCenter">
+              <p class="heading sectionHeading" data-str-id="allInstalled"></p>
+              <span class="flex column pointer menuOptions" onclick="showMenuOptions();"><span class="dot"></span><span
+                  class="dot"></span><span class="dot"></span>
+                <div class="menuOptionsContainer">
+                  <div class="transparentBg" onclick="hideMenuOptions(event);"></div>
+                  <ul class="optionsList font12">
+                    <li data-str-id="installApk" onclick="installApk(event);"></li>
+                    <li data-str-id="deleteApps" onclick="deleteApps(event);"></li>
+                  </ul>
+                </div>
+              </span>
+            </div>
+          </div>
+          <div class="flex wrap gameListContainer">
+            <ul class="flex gameList wrap" id="installedApps"style="text-align: center;">
+              <li class="pointer" style="width: 100px;" onclick="handleClick('AuroraStore')">
+                <div class="installedGame">
+                  <img src="./images/AuroraStore.png" alt="gameImage" />
+                </div>
+                <p class="bold ellipsis gameName"style="text-align: center;">Google Play</p>
+              </li>
+            </ul>
+            <ul class="flex gameList wrap bsApps">
+              <li class="pointer" style="width: 100px;" onClick="openSystemApps();">
+                <div class="installedGame appSleeveContainer gameCenterBg">
+                  <div class="flex wrap vrtlCenter appSleeveCollector">
+                    <img src="./images/settings.png" class="slideIcon" />
+                    <img src="./images/chrome.png" class="slideIcon" />
+                    <img src="./images/zarchiver.png" class="slideIcon">
+                    <img src="./images/hieuglliteApp.png" class="slideIcon">
+                  </div>
+                </div>
+                <p class="bold ellipsis gameName" data-str-id="systemApps"style="text-align: center;"></p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="noInternet" class="tab flex perfectCenter" class="tab">
+        <p class="offlineText" data-str-id="noInternet"></p>
+      </div>
+    </div>
+    <div class="modalContainer">
+      <div class="transparentBg" onclick="hideSystemApps();"></div>
+      <div class="folderPopup gameCenterBg">
+        <div class="flex spaceBetween modalHeading vrtlCenter">
+          <p class="ellipsis" data-str-id="systemApps"></p>
+          <img src="./images/closeIcon.png" class="folderCloseIcon pointer" alt="closeIcon"
+            onclick="hideSystemApps();" />
+        </div>
+        <div class="folderAppsContainer">
+          <div>
+            <ul class="flex gameList wrap">
+              <li class="pointer" onclick="handleClick('android')">
+                <div class="imageContainer">
+                  <img src="./images/settings.png" alt="bsApp" />
+                </div>
+                <p class="bold ellipsis gameName" data-str-id="settings"></p>
+              </li>
+              <li class="pointer" onclick="handleClick('chrome')">
+                <div class="imageContainer ">
+                  <img src="./images/chrome.png" alt="bsApp" />
+                </div>
+                <p class="bold ellipsis gameName">Chrome</p>
+              </li>
+              <li class="pointer" onclick="handleClick('zarchiver')">
+                <div class="imageContainer">
+                  <img src="./images/zarchiver.png" alt="bsApp" />
+                </div>
+                <p class="bold ellipsis gameName">ZArchiver</p>
+              </li>
+              <li class="pointer" onclick="handleClick('HieuGLLite')">
+                <div class="imageContainer">
+                  <img src="./images/hieuglliteApp.png" alt="bsApp" />
+                </div>
+                <p class="bold ellipsis gameName">Hieu GL Lite</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="deleteOverlay" onclick="hideDeleteButton();"></div>
+    <div class="uninstallPopup">
+      <div class="flex spaceBetween modalHeading">
+        <p class="deleteText bold">Delete app</p>
+        <img src="./images/closeIcon_uninstall.png" class="closeIcon pointer" alt="closeIcon" onclick="hideDeleteButton();" />
+      </div>
+      <p class="deleteText modalHeading" data-str-id="areYouSure"></p>
+      <div class="flex flexEnd">
+        <button class="whiteButton" onclick="hideDeleteButton();">
+          <p data-str-id="cancel"></p>
+        </button><button class="warningButton" onclick="uninstallGame();">
+          <p data-str-id="delete"></p>
+        </button>
+      </div>
+    </div>
+    <!-- PLAY MUSIC button -->
+    <button onclick="toggleMusic()" id="playButton" class="glow-button">PLAY MUSIC 🎶</button>
+
+    <!-- Hidden audio element for playing music -->
+    <audio id="bgMusic" loop>
+      <source src="" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  <div class="devLink">
+    <a href="https://www.youtube.com/@HieuGLLite" target="browser">Made by Hieu GL Lite</a>
+  </div>
+</body>
+
+</html>
